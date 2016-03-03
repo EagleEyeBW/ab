@@ -12,7 +12,7 @@ build:
   parallel: true
   project: App1\App1.sln
 
- before_build:
+before_build:
    - cd App1
    - cmd nuget restore
    - cd ..
