@@ -5,7 +5,8 @@ platform:
   - arm
 
 configuration:
-  - Releases
+  - Debug
+  - Release
 
 build:
   parallel: true
