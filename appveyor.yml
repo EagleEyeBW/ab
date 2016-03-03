@@ -14,5 +14,5 @@ build:
 
 before_build:
    - cd App1
-   - cmd nuget restore
+   - nuget restore
    - cd ..
