@@ -5,7 +5,6 @@ platform:
   - arm
 
 configuration:
-  - Debug
   - Releases
 
 build:
