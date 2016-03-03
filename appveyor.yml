@@ -1,0 +1,18 @@
+
+platform:
+  - x86
+  - x64
+  - arm
+
+configuration:
+  - Debug
+  - Releases
+
+build:
+  parallel: true
+  project: App1\App1.sln
+
+ before_build:
+   - cd App1
+   - cmd nuget restore
+   - cd ..
